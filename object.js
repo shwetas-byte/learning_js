@@ -51,16 +51,38 @@
     
 // }
 
-let ob=
+// let ob=
+// {
+//     'name 1':"Shweta",
+//     'name 2':"Pihu"
+// }
+// // console.log(ob['name 1']);
+// // console.log(ob);
+// let a=Object.keys(ob)
+// console.log(a);
+// let b=Object.values(ob)
+// console.log(b);
+
+// destructuring of object:- without key .,[] notation ke value ko elements ki help se access krna
+// let{name,city}=
+// {
+//     name:"Shweta",
+//     city:"Bhopal"
+// }
+// console.log(name)
+
+// spread operator
+let ob1=
 {
-    'name 1':"Shweta",
-    'name 2':"Pihu"
+    name:"Shweta",
+    city:"bhopal"
 }
-// console.log(ob['name 1']);
-// console.log(ob);
-let a=Object.keys(ob)
-console.log(a);
-let b=Object.values(ob)
-console.log(b);
+let ob2=
+{
+    contact:798371286
+}
+let ob3={...ob1,...ob2}
+console.log(ob3);
+
 
 
