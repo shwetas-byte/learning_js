@@ -36,3 +36,5 @@ let hh=document.getElementById('main1')
 hh.innerHTML="<i> wesawrewtre</i>"
 console.log(hh);
 
+document.getElementById('main1').textContent='ufghkyutyfgh'
+
