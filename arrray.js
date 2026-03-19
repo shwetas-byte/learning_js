@@ -39,7 +39,7 @@
 // console.log(name);
 
 // let[name,age, ,height]=["Shweta",19,"bpl","5.4"] // jb kisi element ko store hi mhi krana h toh uski space chod do
-// console.log(name);
+// console.log(name,age);
 
 
 // for of loop -> elements nikalne me without indexing
@@ -75,8 +75,9 @@
 // for deleting->/splice(index no,no of elements)
 // for adding->splice(index no, no of elements,element)
 let stu=["Shweta","unmarreied",18,"65kg","indore"]
-// stu.splice(2,3)
+// let v=stu.splice(2,3)
 // console.log(stu);
+// console.log(v);
 
 stu.splice(2,0,"orange","apple")// jb delete na krna ho toh 0 likhenge second no pr
 console.log(stu);

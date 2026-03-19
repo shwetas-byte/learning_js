@@ -21,13 +21,13 @@
 // }
 // console.log(student)
 // console.log(student.monthly[2])
-// console.log(student.bank.ac_balance)
+// console.log(student.bank)
 
 // let emp=
 // {
-//     emp_name:prompt("Enter employee name:"),
-//     emp_age:prompt("Enter employee age:"),
-//     emp_city:prompt("Enter employee city:")
+//     // emp_name:prompt("Enter employee name:"),
+//     // emp_age:prompt("Enter employee age:"),
+//     // emp_city:prompt("Enter employee city:")
 // }
 // emp.emp_name=prompt("Enter employee name:")
 // emp.emp_age=prompt("Enter employee age:")
@@ -42,22 +42,23 @@
 // }
 // for(let k in obj)
 // {
+//    console.log(k);
    
-//     if(k=="fruit")
-//     {
-//         console.log(k);
+    // if(k=="fruit")
+    // {
+    //     console.log(k);
         
-//     }
+    // }
     
 // }
 
-// let ob=
-// {
-//     'name 1':"Shweta",
-//     'name 2':"Pihu"
-// }
-// // console.log(ob['name 1']);
-// // console.log(ob);
+let ob=
+{
+    'name 1':"Shweta",
+    'name 2':"Pihu"
+}
+// console.log(ob['name 1']);
+// console.log(ob);
 // let a=Object.keys(ob)
 // console.log(a);
 // let b=Object.values(ob)
@@ -72,17 +73,17 @@
 // console.log(name)
 
 // spread operator
-let ob1=
-{
-    name:"Shweta",
-    city:"bhopal"
-}
-let ob2=
-{
-    contact:798371286
-}
-let ob3={...ob1,...ob2}
-console.log(ob3);
+// let ob1=
+// {
+//     name:"Shweta",
+//     city:"bhopal"
+// }
+// let ob2=
+// {
+//     contact:798371286
+// }
+// let ob3={...ob1,...ob2}
+// console.log(ob3);
 
 
 

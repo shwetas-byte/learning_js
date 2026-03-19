@@ -80,13 +80,13 @@
 
 // with argument and with return value
 
-function demo(a)
-{
-    return a+a
+// function demo(a)
+// {
+//     return a+a
 
-}
-let a=parseInt(prompt("Enter a number:"))
-console.log(demo(a));
+// }
+// let a=parseInt(prompt("Enter a number:"))
+// console.log(demo(a));
 
 
 

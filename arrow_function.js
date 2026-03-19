@@ -23,7 +23,7 @@
 // let an=u(20)
 // console.log(an);
 
-// agr argument pass nhi krna hai toh() compulsory hai or agr ek hi srgument dena hai toh without paranthesede skte hai but 1 se jayada ke liye paranthese use krna pdega
+// agr argument pass  krna hai toh() compulsory hai or agr ek hi srgument dena hai toh without paranthesede skte hai but 1 se jayada ke liye paranthese use krna pdega
 // let u=()=>(2*2)
 // let an=u()
 // console.log(an);
