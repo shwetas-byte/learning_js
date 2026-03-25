@@ -4,6 +4,9 @@ function validate()
     let age=document.getElementById('age').value
     let city=document.getElementById('city').value
     let contact=document.getElementById('contact').value
+    let ema=document.getElementById('email').value
+    let pass=document.getElementById('password').value
+    let confirm=document.getElementById('confirm').value
     if(name=='')
     {
         alert("Please enter your name")
@@ -51,6 +54,48 @@ function validate()
     {
         alert("Please enter 10 digit contact no.")
         document.getElementById('contact').focus()
+        return false
+    }
+    else if(ema=='')
+    {
+        alert('Please enter your email')
+        document.getElementById('email').focus()
+        return false
+    }
+     else if(!(ema.includes('@gmail.com')))
+    {
+        alert('Please enter valid email')
+        document.getElementById('email').focus()
+        return false
+    }
+    else if(pass=='')
+    {
+        alert('Please enter your password')
+        document.getElementById('password').focus()
+        return false
+    }
+    else if(!(pass.match(/[~`@#$%^&*_+]/)))
+    {
+        alert('Please enter atleast one special character')
+        document.getElementById('password').focus()
+        return false
+    }
+    else if( pass.length >= 15 || pass.length<8  )
+    {
+        alert("Please enter minimum 8 characters and max 15 characters")
+        document.getElementById('contact').focus()
+        return false
+    }
+    else if(confirm=='')
+    {
+        alert('Please enter your confirm password')
+        document.getElementById('confirm').focus()
+        return false
+    }
+    else if(confirm!=pass)
+    {
+        alert('Password Mismatched')
+        document.getElementById('confirm').focus()
         return false
     }
 }
