@@ -11,12 +11,14 @@
 // named is denoted by curly braces
 
 // jb koi default function export ho gya hai toh import ke time uska name change kr skte hai
-
+// jb named me krna h toh copy bnake use krenge
 // import demo from'./js_module1.js'
 import sum from'./js_module1.js'
 
 // import fun from'./js_module2.js'
-import {fun,fun1} from'./js_module2.js'
+// import {fun,fun1} from'./js_module2.js'
+import {fun as fn,fun1} from'./js_module2.js'
 sum()
-fun()
-fun1()
+fn()
+fun1()    
+
