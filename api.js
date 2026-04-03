@@ -22,10 +22,33 @@ async function access()
 {
    let a= await fetch('https://jsonplaceholder.typicode.com/comments')
    let res= await a.json()
-//    console.log(res)
-   let data=res.map( e =>{return e.name})//e event object
-   console.log(data);
+   let data=res.map((i)=> `
+      <tr>
+        <td>${i.id}</td>
+        <td>${i.name}</td>
+        <td>${i.email}</td>
+      </tr>
+      `
+   ).join("")
+
+document.getElementById('showdata').innerHTML=data
+
+
+   //console.log(res)
+   // let data=res.map( e =>{return e.name})//e event object
+   // console.log(data);
    
    
 }
 access()
+
+//queryselector single element ko hi target krta haii agr multiple classes h tb bhi first vali class ko hi target krta hai
+// let h=document.querySelector(".demo")  
+// let h=document.querySelector("h1")  
+// let h=document.querySelector("#demo") 
+// document.querySelectorAll  ---sare elements ko select krne ke liye but return array hi krega 
+console.log(h);
+
+
+
+
